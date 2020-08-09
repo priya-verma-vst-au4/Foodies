@@ -1,0 +1,210 @@
+.list-margin li {
+  margin-right: 10px;
+}
+
+.show-on-med-and-down {
+  display: none;
+}
+
+body {
+  background: url(bg1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  
+}
+
+nav {
+  color: #fff;
+  background-color: transparent; /*#ee6e73*/
+}
+
+nav .brand-logo {
+    color: #fff;
+    font-size: 3.3rem;
+    font-weight: 600;
+    font-family: 'Fondamento', cursive;
+    letter-spacing: 0.1rem;
+}
+
+.brand-logo {
+  color: #fff;
+  font-size: 3.3rem;
+  font-weight: 600;
+  font-family: 'Fondamento', cursive;
+  letter-spacing: 0.1rem;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+.tagline {
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: 500;
+  font-family: 'Fondamento', cursive;
+  letter-spacing: 0.1rem;
+  margin-top: -20px;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+.bg1 {
+  background: rgba(255, 121, 1, 0.1);
+  padding-bottom: 30px;
+  border-radius: 5px;
+}
+
+.btn1 {
+  background-color: #90BF29;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn1:hover {
+  background-color: #FFF;
+  color: #90BF29;
+}
+
+.btn2 {
+  background-color: #FFF;
+  color: #90BF29;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn2:hover {  
+  background-color: #90BF29;
+  color: #FFF;
+  font-size: 16px;
+}
+
+nav ul a {
+  font-size: 1.3rem;
+  /* background: rgba(74, 65, 72, 0.3); */
+}
+
+label {
+  font-size: .8rem;
+  color: #FFF;
+}
+
+[type="checkbox"]:checked+span:not(.lever):before {
+  border-right: 2px solid #FFF;
+  border-bottom: 2px solid #FFF;
+}
+
+[type="checkbox"]+span:not(.lever):before, [type="checkbox"]:not(.filled-in)+span:not(.lever):after {
+  border: 2px solid #D1D1B9;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #FFF;
+  -webkit-box-shadow: 0 1px 0 0 #FFF;
+  box-shadow: 0 1px 0 0 #FFF;
+}
+
+.chk {
+  background-color: transparent !important;
+  border: 2px solid #000;
+  color: transparent;
+  margin-right: 10px;
+}
+
+.led {
+  display: inline;
+  font-size: 16px;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+  position: relative;
+  opacity: 1; 
+  pointer-events: bounding-box;
+  background-color: transparent !important;
+}
+
+input {
+  color: #FFF;
+}
+
+.btn-flat {
+  color: #FFF;
+}
+
+h4 {
+  color: #FFF;
+  margin: 0.52rem 0.9rem 0;
+}
+
+.dmsg {
+  color: #975057;
+  background-color: #F8D7DA ;
+  border: 1px solid #F5C6CB;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  width:25%;
+  padding: 10px 0;
+  margin: auto;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+th {
+  border-bottom: 1px solid rgba(255,255,255,0.9 );
+  color: #FFF;
+}
+
+.bg2 {
+  background: rgba(255, 121, 1, 0.1);
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.btn3 {
+  background-color: #F44336;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+}
+
+.btn3:hover {  
+  background-color: #FFF;
+  color: #F44336;
+  font-size: 16px;
+}
+
+.cbtn {
+  background: rgba(74, 65, 72, 0.6);
+  /* background-color: transparent; */
+    border: 1px solid #FFF;
+  box-shadow: 3px 3px 8px 1px rgba(108, 117, 125, 0.87);
+}
+.cbtn:hover {
+  background: rgba(74, 65, 72, 0.6);
+}
+
+.card .card-content {
+  padding: 5px 0;
+  border-bottom: 1px solid gray;
+}
+
+.card-panel {
+  padding: 5px;
+  background-color: transparent;
+  min-height: 105px;
+}
+
+.card-panel p {
+  color: #FFF;
+}
+/* .card {
+  background-color: rgba(255, 121, 1, 0.7);
+} */
+
+.btn, .btn-large, .btn-small, .btn-flat {
+  text-transform: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .show-on-med-and-down {
+    display: block;
+  }
+}
